@@ -48,3 +48,7 @@ Thumbs.db
 *.mov
 *.wmv
 
+# sensitive values for env-configuration
+.env
+.env.local
+.env.production
