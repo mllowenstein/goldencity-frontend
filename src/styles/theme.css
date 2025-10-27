@@ -1,0 +1,28 @@
+/* theme saved from personal projects */
+/* Light mode */
+:root {
+    --bg-primary: '#f8fafc';
+    --bg-secondary: '#ffffff';
+    --text-primary: '#1e293b';
+    --text-secondary: '#475569';
+
+    
+    --primary-500: '#48c2ff';
+    --primary-600: '#0682ff';
+    --primary-700: '#006eff';
+}
+
+/* Dark mode */
+:root.dark {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+}
+
+/* Smooth Transitions */
+* {
+    transition: background-color 300ms ease,
+                border-color 300ms ease,
+                color 300ms ease;
+}
